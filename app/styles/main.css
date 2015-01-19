@@ -24,6 +24,9 @@ body {
   padding-bottom: 19px;
 }
 
+.input-group {
+    margin-bottom: 15px;
+}
 /* Custom page footer */
 .footer {
   padding-top: 19px;
