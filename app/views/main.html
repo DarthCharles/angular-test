@@ -16,12 +16,14 @@
    </div>
 
    <!-- Todos list -->
-   <p class="input-group" ng-repeat="todo in todos">
+   <div ui-sortable ng-model='todos'>
+   <p class="input-group" ng-repeat="todo in todos" style="padding:5px 10px; cursor: move;">
     <input type="text" ng-model="todo" class="form-control">
         <span class="input-group-btn">
           <button type="button" class="btn btn-danger" aria-label="Remove" ng-click="removeTodo($index)">
            <i class="fa fa-close fa-lg"></i>
          </button>
   </p>
+  </div>
 </form>
 </div>
