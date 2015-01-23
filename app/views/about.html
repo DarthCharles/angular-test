@@ -1,1 +1,21 @@
-<p>This is the about view.</p>
+  <form role="form" >
+    <div class="row">
+      <div class="input-group">
+        <input type="text" ng-model="FbID" placeholder="A quien quieres stalkear" class="form-control">
+        <span class="input-group-btn">
+          <button type="submit" class="btn btn-primary" aria-label="Add">
+           <i class="fa fa-search fa-lg"></i>
+         </button>
+
+       </span>
+     </div>
+   </div>
+
+
+</form>
+
+<div class="row">
+<div class="col-md-12">
+    <span><img ng-src="https://graph.facebook.com/{{FbID}}/picture?type=large"/></span><br>
+</div>
+</div>

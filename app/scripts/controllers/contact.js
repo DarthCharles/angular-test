@@ -8,6 +8,10 @@
  * Controller of the angularTestApp
  */
 angular.module('angularTestApp')
-  .controller('AboutCtrl', function ($scope) {
-  $scope.FbID = '';    //set the name model on scope
+  .controller('contactCtrl', function ($scope) {
+    $scope.awesomeThings = [
+      'HTML5 Boilerplate',
+      'AngularJS',
+      'Karma'
+    ];
   });
